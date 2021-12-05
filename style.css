@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-color: #11998e;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: #f6f5f7;
@@ -36,6 +40,10 @@ a {
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
+}
+
+a:hover {
+    color: var(--main-color);
 }
 
 .container {
@@ -75,22 +83,30 @@ a {
     width: 40px;
 }
 
+.social-container a:hover {
+    border-color: var(--main-color);
+}
+
 .form-container input {
     background: #eee;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
-    border-radius: 3px;
+    border-radius: 5px;
     width: 100%;
     font-size: 14px;
+}
+
+.bg-gradient {
+    background: var(--main-color);;
+    background: -webkit-linear-gradient(to right, #38ef7d, var(--main-color));
+    background: linear-gradient(to right, #38ef7d, var(--main-color));
 }
 
 
 button {
     border-radius: 20px;
-    border: 1px solid #ff4b2b;
-    background: #ff4b2b;
-    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    border: 1px solid #38ef7d;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -99,6 +115,7 @@ button {
     text-transform: uppercase;
     transition: transform 40ms ease-in;
     cursor: pointer;
+    margin: 8px 0;
 }
 
 button:active {
@@ -145,8 +162,6 @@ button.ghost {
 }
 
 .overlay {
-    background: #ff416c;
-    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
     height: 100%;
     color: #fff;
     position: relative;
