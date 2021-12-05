@@ -3,9 +3,9 @@ This project just use HTML, CSS, and a little javascript to make slide between s
 
 
 ### Sign In screen 
-![ScreenShot](/images/sign-in.png?raw=true)
+[![sign-in.png](https://i.postimg.cc/NMH95SMr/sign-in.png)](https://postimg.cc/qhpMFm2k)
 
 
 ### Sign Up screen
-![ScreenShot](/images/sign-up.png?raw=true)
+[![sign-up.png](https://i.postimg.cc/44pP0F5d/sign-up.png)](https://postimg.cc/xqTLJ5BD)
 
